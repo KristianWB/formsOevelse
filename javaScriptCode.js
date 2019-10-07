@@ -4,6 +4,6 @@ let email = document.getElementById("exampleInputEmail1");
 
 f = () => {
   if (email.value) {
-    pre.innerHTML = pre.innerHTML + "E-mail: " + email.value + "\n # ";
+    lead.innerHTML = lead.innerHTML + "E-mail: " + email.value + "\n # ";
   }
 };
